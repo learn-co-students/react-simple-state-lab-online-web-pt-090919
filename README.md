@@ -100,3 +100,4 @@ single `state` value: `color`, (which will be a 3 digit hex value i.e. '#FFF').
 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-simple-state-lab'>React Simple State Lab</a> on Learn.co and start learning to code for free.</p>
+3
