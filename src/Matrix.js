@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { pattern1 } from './data';
 
 export default class Matrix extends Component {
   
@@ -18,4 +19,8 @@ export default class Matrix extends Component {
     )
   }
   
+}
+
+Matrix.defaultProps = {
+  values: pattern1.map(pattern => pattern.map(item => item.replace(item, "#F00")))
 }
