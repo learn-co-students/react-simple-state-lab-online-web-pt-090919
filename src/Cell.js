@@ -11,7 +11,7 @@ export default class Cell extends Component {
   }
 
   // our increment method makes use of the 'setState' method, which is what we use to alter state
-  changeColor = () => {
+  handleClick = () => {
     const newColor = '#333'
     this.setState({
       color: newColor
@@ -23,7 +23,7 @@ export default class Cell extends Component {
       <div
         className="cell"
         style={{backgroundColor: this.state.color}}
-        onClick={this.changeColor}>
+        onClick={this.handleClick}>
       </div>
     )
   }
