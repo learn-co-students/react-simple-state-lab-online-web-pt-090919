@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Cell extends React.Component{
+export default class Cell extends React.Component{
 
   constructor(props){
     super()
@@ -11,7 +11,7 @@ class Cell extends React.Component{
 
   changeColor = (event) => {
           this.setState({
-               color: "#F00"
+               color: "#333"
           })
      }
 
